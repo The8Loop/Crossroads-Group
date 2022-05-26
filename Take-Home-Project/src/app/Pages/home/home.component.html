@@ -1,1 +1,4 @@
 <p>{{gitUser.login}}</p>
+<ul>
+  <li *ngFor="let item of gitCommits">{{item.commit.message}}</li>
+</ul>
